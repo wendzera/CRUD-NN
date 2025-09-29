@@ -1,0 +1,94 @@
+@page
+@model PlataformaEAD.Pages.Matriculas.IndexModel
+@{
+    ViewData["Title"] = "Matrículas";
+}
+
+<h1>Matrículas</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">Nova Matrícula</a>
+</p>
+
+<form asp-page="./Index" method="get" class="mb-3">
+    <div class="input-group">
+        <input type="text" class="form-control" name="SearchString" value="@Model.CurrentFilter" placeholder="Buscar por aluno ou curso..." />
+        <button type="submit" class="btn btn-outline-secondary">Buscar</button>
+    </div>
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                <a asp-page="./Index" asp-route-sortOrder="@Model.AlunoSort" asp-route-currentFilter="@Model.CurrentFilter">
+                    Aluno
+                </a>
+            </th>
+            <th>
+                <a asp-page="./Index" asp-route-sortOrder="@Model.CursoSort" asp-route-currentFilter="@Model.CurrentFilter">
+                    Curso
+                </a>
+            </th>
+            <th>
+                <a asp-page="./Index" asp-route-sortOrder="@Model.DataSort" asp-route-currentFilter="@Model.CurrentFilter">
+                    Data
+                </a>
+            </th>
+            <th>
+                Preço Pago
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+                <a asp-page="./Index" asp-route-sortOrder="@Model.ProgressoSort" asp-route-currentFilter="@Model.CurrentFilter">
+                    Progresso
+                </a>
+            </th>
+            <th>
+                Nota
+            </th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Matriculas)
+        {
+            <tr>
+                <td>
+                    <a asp-page="/Alunos/Details" asp-route-id="@item.AlunoId">
+                        @item.Aluno.Nome
+                    </a>
+                </td>
+                <td>
+                    <a asp-page="/Cursos/Details" asp-route-id="@item.CursoId">
+                        @item.Curso.Titulo
+                    </a>
+                </td>
+                <td>
+                    @item.Data.ToLocalTime().ToString("dd/MM/yyyy")
+                </td>
+                <td>
+                    @item.PrecoPago.ToString("C")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: @item.Progresso%;" 
+                             aria-valuenow="@item.Progresso" aria-valuemin="0" aria-valuemax="100">@item.Progresso%</div>
+                    </div>
+                </td>
+                <td>
+                    @(item.NotaFinal.HasValue ? item.NotaFinal.Value.ToString("N1") : "-")
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-alunoId="@item.AlunoId" asp-route-cursoId="@item.CursoId" class="btn btn-sm btn-primary">Editar</a>
+                    <a asp-page="./Delete" asp-route-alunoId="@item.AlunoId" asp-route-cursoId="@item.CursoId" class="btn btn-sm btn-danger">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

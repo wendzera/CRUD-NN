@@ -1,0 +1,41 @@
+@page "{alunoId:int}/{cursoId:int}"
+@model PlataformaEAD.Pages.Matriculas.DeleteModel
+@{
+    ViewData["Title"] = "Excluir Matrícula";
+}
+
+<h1>Excluir Matrícula</h1>
+
+<h3>Tem certeza que deseja excluir esta matrícula?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">Aluno</dt>
+        <dd class="col-sm-9">@Model.Matricula.Aluno.Nome</dd>
+        
+        <dt class="col-sm-3">Curso</dt>
+        <dd class="col-sm-9">@Model.Matricula.Curso.Titulo</dd>
+        
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Matricula.Data)</dt>
+        <dd class="col-sm-9">@Model.Matricula.Data.ToLocalTime().ToString("dd/MM/yyyy")</dd>
+        
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Matricula.PrecoPago)</dt>
+        <dd class="col-sm-9">@Model.Matricula.PrecoPago.ToString("C")</dd>
+        
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Matricula.Status)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Matricula.Status)</dd>
+        
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Matricula.Progresso)</dt>
+        <dd class="col-sm-9">@Model.Matricula.Progresso%</dd>
+        
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Matricula.NotaFinal)</dt>
+        <dd class="col-sm-9">@(Model.Matricula.NotaFinal.HasValue ? Model.Matricula.NotaFinal.Value.ToString("N1") : "-")</dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Matricula.AlunoId" />
+        <input type="hidden" asp-for="Matricula.CursoId" />
+        <input type="submit" value="Excluir" class="btn btn-danger" />
+        <a asp-page="./Index" class="btn btn-secondary">Voltar</a>
+    </form>
+</div>

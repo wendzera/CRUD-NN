@@ -1,0 +1,58 @@
+@page
+@model PlataformaEAD.Pages.Alunos.IndexModel
+@{
+    ViewData["Title"] = "Alunos";
+}
+
+<h1>Alunos</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">Novo Aluno</a>
+</p>
+
+<form asp-page="./Index" method="get" class="mb-3">
+    <div class="input-group">
+        <input type="text" class="form-control" name="SearchString" value="@Model.CurrentFilter" placeholder="Buscar por nome ou email..." />
+        <button type="submit" class="btn btn-outline-secondary">Buscar</button>
+    </div>
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                <a asp-page="./Index" asp-route-sortOrder="@Model.NameSort" asp-route-currentFilter="@Model.CurrentFilter">
+                    @Html.DisplayNameFor(model => model.Alunos[0].Nome)
+                </a>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Alunos[0].Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Alunos[0].Telefone)
+            </th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Alunos)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefone)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Editar</a>
+                    <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Detalhes</a>
+                    <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

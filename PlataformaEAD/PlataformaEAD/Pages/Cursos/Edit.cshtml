@@ -1,0 +1,44 @@
+@page "{id:int}"
+@model PlataformaEAD.Pages.Cursos.EditModel
+@{
+    ViewData["Title"] = "Editar Curso";
+}
+
+<h1>Editar Curso</h1>
+
+<div class="row">
+    <div class="col-md-8">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Curso.Id" />
+            <div class="form-group mb-3">
+                <label asp-for="Curso.Titulo" class="control-label"></label>
+                <input asp-for="Curso.Titulo" class="form-control" />
+                <span asp-validation-for="Curso.Titulo" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Curso.Descricao" class="control-label"></label>
+                <textarea asp-for="Curso.Descricao" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Curso.Descricao" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Curso.PrecoBase" class="control-label"></label>
+                <input asp-for="Curso.PrecoBase" class="form-control" />
+                <span asp-validation-for="Curso.PrecoBase" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Curso.CargaHoraria" class="control-label"></label>
+                <input asp-for="Curso.CargaHoraria" class="form-control" />
+                <span asp-validation-for="Curso.CargaHoraria" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+                <a asp-page="Index" class="btn btn-secondary">Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

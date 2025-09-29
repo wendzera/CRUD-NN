@@ -1,0 +1,40 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Plataforma EAD</h1>
+    <p>Bem-vindo à plataforma de cursos online.</p>
+    
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Alunos</h5>
+                    <p class="card-text">Gerencie os alunos da plataforma.</p>
+                    <a asp-page="/Alunos/Index" class="btn btn-primary">Ver Alunos</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Cursos</h5>
+                    <p class="card-text">Gerencie os cursos disponíveis na plataforma.</p>
+                    <a asp-page="/Cursos/Index" class="btn btn-primary">Ver Cursos</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Matrículas</h5>
+                    <p class="card-text">Gerencie as matrículas de alunos em cursos.</p>
+                    <a asp-page="/Matriculas/Index" class="btn btn-primary">Ver Matrículas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

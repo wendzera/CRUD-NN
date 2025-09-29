@@ -1,0 +1,700 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\alunos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\alunos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\alunos\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\alunos\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\alunos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\alunos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\alunos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\alunos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\alunos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\alunos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\alunos\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\alunos\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\alunos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\alunos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\alunos\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\alunos\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\alunos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\alunos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\alunos\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\alunos\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\cursos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\cursos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\cursos\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\cursos\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\cursos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\cursos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\cursos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\cursos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\cursos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\cursos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\cursos\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\cursos\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\cursos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\cursos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\cursos\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\cursos\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\cursos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\cursos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\cursos\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\cursos\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\matriculas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\matriculas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\matriculas\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\matriculas\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\matriculas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\matriculas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\matriculas\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\matriculas\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\matriculas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\matriculas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\matriculas\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\matriculas\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\matriculas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\matriculas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\matriculas\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\matriculas\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|c:\\users\\windows\\onedrive\\\u00E1rea de trabalho\\plataformaead\\plataformaead\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF7CD6E4-1618-4454-899E-781FD8E627DC}|PlataformaEAD\\PlataformaEAD.csproj|solutionrelative:plataformaead\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Alunos\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Delete.cshtml.cs",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Alunos\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:49:46.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Alunos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Delete.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Alunos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:49:30.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Alunos\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Details.cshtml.cs",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Alunos\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:49:15.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Details.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Alunos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Details.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Alunos\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:49:05.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Alunos\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Edit.cshtml.cs",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Alunos\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:48:48.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Alunos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Edit.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Alunos\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:48:36.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Alunos\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Create.cshtml.cs",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Alunos\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:48:24.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Create.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Alunos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Create.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Alunos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:48:14.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Index.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:47:25.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:54:37.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Matriculas\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Matriculas\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Matriculas\\Delete.cshtml.cs",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Matriculas\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:54:28.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Matriculas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Matriculas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Matriculas\\Delete.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Matriculas\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:54:16.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Matriculas\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Matriculas\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Matriculas\\Edit.cshtml.cs",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Matriculas\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:54:01.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Matriculas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Matriculas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Matriculas\\Edit.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Matriculas\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:53:40.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Matriculas\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Matriculas\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Matriculas\\Create.cshtml.cs",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Matriculas\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:53:20.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Matriculas\\Create.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Matriculas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Matriculas\\Create.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Matriculas\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:52:55.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Matriculas\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Matriculas\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Matriculas\\Index.cshtml.cs",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Matriculas\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:52:35.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Matriculas\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Matriculas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Matriculas\\Index.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Matriculas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:52:18.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Cursos\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Delete.cshtml.cs",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Cursos\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:51:58.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Cursos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Delete.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Cursos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:51:45.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Cursos\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Details.cshtml.cs",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Cursos\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:51:30.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Details.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Cursos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Details.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Cursos\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:51:20.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Cursos\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Edit.cshtml.cs",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Cursos\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:51:03.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Cursos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Edit.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Cursos\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:50:51.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Cursos\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Create.cshtml.cs",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Cursos\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:50:40.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Create.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Cursos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Create.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Cursos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:50:26.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Cursos\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Index.cshtml.cs",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Cursos\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:50:13.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Cursos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Cursos\\Index.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Cursos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:50:01.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Alunos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Index.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Alunos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:47:50.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Alunos\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Alunos\\Index.cshtml.cs",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Alunos\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:48:02.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:47:35.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:47:10.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:46:50.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "PlataformaEAD\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:46:37.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\appsettings.json",
+              "RelativeDocumentMoniker": "PlataformaEAD\\appsettings.json",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\appsettings.json",
+              "RelativeToolTip": "PlataformaEAD\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-29T13:43:06.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Program.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Program.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Program.cs",
+              "RelativeToolTip": "PlataformaEAD\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:42:50.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PlataformaEAD\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:42:35.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Matricula.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Models\\Matricula.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Models\\Matricula.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Models\\Matricula.cs",
+              "RelativeToolTip": "PlataformaEAD\\Models\\Matricula.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:42:22.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Models\\Curso.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Models\\Curso.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Models\\Curso.cs",
+              "RelativeToolTip": "PlataformaEAD\\Models\\Curso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:42:09.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Models\\Aluno.cs",
+              "RelativeDocumentMoniker": "PlataformaEAD\\Models\\Aluno.cs",
+              "ToolTip": "C:\\Users\\Windows\\OneDrive\\\u00C1rea de Trabalho\\PlataformaEAD\\PlataformaEAD\\Models\\Aluno.cs",
+              "RelativeToolTip": "PlataformaEAD\\Models\\Aluno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:41:51.55Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

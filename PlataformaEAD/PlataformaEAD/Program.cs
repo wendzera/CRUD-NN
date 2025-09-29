@@ -1,0 +1,51 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore;
+using Npgsql.EntityFrameworkCore.PostgreSQL;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddRazorPages(); // Mudando para Razor Pages
+builder.Services.AddControllersWithViews();
+
+// Adicionar DbContext com PostgreSQL
+builder.Services.AddDbContext<PlataformaEAD.Data.ApplicationDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Adicionar serviços de diagnóstico do EF Core
+builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
+}
+else
+{
+    app.UseDeveloperExceptionPage();
+    app.UseMigrationsEndPoint();
+}
+
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+
+app.UseRouting();
+
+app.UseAuthorization();
+
+// Mapeia endpoints para Razor Pages
+app.MapRazorPages();
+
+// Mapeia endpoints para Controllers
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.Run();

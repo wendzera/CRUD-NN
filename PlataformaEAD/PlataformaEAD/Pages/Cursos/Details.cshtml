@@ -1,0 +1,82 @@
+@page "{id:int}"
+@model PlataformaEAD.Pages.Cursos.DetailsModel
+@{
+    ViewData["Title"] = "Detalhes do Curso";
+}
+
+<h1>Detalhes do Curso</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Curso.Titulo)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Curso.Titulo)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Curso.Descricao)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Curso.Descricao)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Curso.PrecoBase)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Curso.PrecoBase)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Curso.CargaHoraria)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Curso.CargaHoraria) horas
+        </dd>
+    </dl>
+</div>
+
+<h3 class="mt-4">Alunos Matriculados</h3>
+
+@if (Model.Matriculas.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Aluno</th>
+                <th>Data</th>
+                <th>Preço Pago</th>
+                <th>Status</th>
+                <th>Progresso</th>
+                <th>Nota Final</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Matriculas)
+            {
+                <tr>
+                    <td>@item.Aluno.Nome</td>
+                    <td>@item.Data.ToLocalTime().ToString("dd/MM/yyyy")</td>
+                    <td>@item.PrecoPago.ToString("C")</td>
+                    <td>@Html.DisplayFor(modelItem => item.Status)</td>
+                    <td>@item.Progresso%</td>
+                    <td>@(item.NotaFinal.HasValue ? item.NotaFinal.Value.ToString("N1") : "-")</td>
+                    <td>
+                        <a asp-page="/Matriculas/Edit" asp-route-alunoId="@item.AlunoId" asp-route-cursoId="@item.CursoId" class="btn btn-sm btn-primary">Editar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Nenhum aluno matriculado neste curso.</p>
+}
+
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Curso?.Id" class="btn btn-primary">Editar</a>
+    <a asp-page="./Index" class="btn btn-secondary">Voltar</a>
+    <a asp-page="/Matriculas/Create" asp-route-cursoId="@Model.Curso?.Id" class="btn btn-success">Nova Matrícula</a>
+</div>

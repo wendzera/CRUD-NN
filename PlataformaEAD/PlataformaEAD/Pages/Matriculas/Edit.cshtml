@@ -1,0 +1,90 @@
+@page "{alunoId:int}/{cursoId:int}"
+@model PlataformaEAD.Pages.Matriculas.EditModel
+@{
+    ViewData["Title"] = "Editar Matrícula";
+}
+
+<h1>Editar Matrícula</h1>
+
+<div class="row">
+    <div class="col-md-8">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Matricula.AlunoId" />
+            <input type="hidden" asp-for="Matricula.CursoId" />
+            
+            <div class="form-group mb-3">
+                <label class="control-label">Aluno</label>
+                <input type="text" value="@Model.Aluno.Nome" class="form-control" readonly />
+            </div>
+            
+            <div class="form-group mb-3">
+                <label class="control-label">Curso</label>
+                <input type="text" value="@Model.Curso.Titulo" class="form-control" readonly />
+            </div>
+            
+            <div class="form-group mb-3">
+                <label asp-for="Matricula.Data" class="control-label"></label>
+                <input asp-for="Matricula.Data" class="form-control" readonly />
+                <span asp-validation-for="Matricula.Data" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-3">
+                <label asp-for="Matricula.PrecoPago" class="control-label"></label>
+                <input asp-for="Matricula.PrecoPago" class="form-control" />
+                <span asp-validation-for="Matricula.PrecoPago" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-3">
+                <label asp-for="Matricula.Status" class="control-label"></label>
+                <select asp-for="Matricula.Status" asp-items="Html.GetEnumSelectList<StatusMatricula>()" class="form-select"></select>
+                <span asp-validation-for="Matricula.Status" class="text-danger"></span>
+                <div id="statusError" class="text-danger" style="display:none;">
+                    Para concluir o curso, o progresso deve ser 100%.
+                </div>
+            </div>
+            
+            <div class="form-group mb-3">
+                <label asp-for="Matricula.Progresso" class="control-label"></label>
+                <input asp-for="Matricula.Progresso" class="form-control" min="0" max="100" />
+                <span asp-validation-for="Matricula.Progresso" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-3">
+                <label asp-for="Matricula.NotaFinal" class="control-label"></label>
+                <input asp-for="Matricula.NotaFinal" class="form-control" min="0" max="10" step="0.1" />
+                <span asp-validation-for="Matricula.NotaFinal" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-3">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+                <a asp-page="Index" class="btn btn-secondary">Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        $(document).ready(function() {
+            // Validação para o status Concluído
+            $('#Matricula_Status').change(validateStatus);
+            $('#Matricula_Progresso').change(validateStatus);
+            
+            function validateStatus() {
+                var status = $('#Matricula_Status').val();
+                var progresso = $('#Matricula_Progresso').val();
+                
+                if (status == '@((int)StatusMatricula.Concluido)' && progresso < 100) {
+                    $('#statusError').show();
+                } else {
+                    $('#statusError').hide();
+                }
+            }
+            
+            // Iniciar a validação
+            validateStatus();
+        });
+    </script>
+}

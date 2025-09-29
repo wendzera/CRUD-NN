@@ -1,0 +1,87 @@
+@page
+@model PlataformaEAD.Pages.Matriculas.CreateModel
+@{
+    ViewData["Title"] = "Nova Matrícula";
+}
+
+<h1>Nova Matrícula</h1>
+
+<div class="row">
+    <div class="col-md-8">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group mb-3">
+                <label asp-for="Matricula.AlunoId" class="control-label">Aluno</label>
+                <select asp-for="Matricula.AlunoId" class="form-select" asp-items="ViewBag.Alunos">
+                    <option value="">-- Selecione um Aluno --</option>
+                </select>
+                <span asp-validation-for="Matricula.AlunoId" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-3">
+                <label class="control-label">Cursos</label>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Selecionar</th>
+                                <th>Título</th>
+                                <th>Preço Base</th>
+                                <th>Preço Pago</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.CursosDisponiveis.Count; i++)
+                            {
+                                var curso = Model.CursosDisponiveis[i];
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" class="curso-checkbox" 
+                                               name="CursosSelecionados" value="@curso.Id" 
+                                               data-preco="@curso.PrecoBase.ToString("F2")" />
+                                    </td>
+                                    <td>@curso.Titulo</td>
+                                    <td>@curso.PrecoBase.ToString("C")</td>
+                                    <td>
+                                        <input type="number" step="0.01" min="0" 
+                                               name="PrecosPagos_@curso.Id" 
+                                               value="@curso.PrecoBase.ToString("F2")" 
+                                               class="form-control preco-input" />
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                @if (!Model.CursosDisponiveis.Any())
+                {
+                    <div class="alert alert-info">
+                        Não há cursos disponíveis para matrícula.
+                    </div>
+                }
+                <span asp-validation-for="CursosSelecionados" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-3">
+                <input type="submit" value="Salvar" class="btn btn-primary" id="submitBtn" 
+                       disabled="@(!Model.CursosDisponiveis.Any())" />
+                <a asp-page="Index" class="btn btn-secondary">Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    
+    <script>
+        $(document).ready(function() {
+            // Validação para garantir que pelo menos um curso seja selecionado
+            $('.curso-checkbox').change(function() {
+                var anyChecked = $('.curso-checkbox:checked').length > 0;
+                $('#submitBtn').prop('disabled', !anyChecked);
+            });
+        });
+    </script>
+}
