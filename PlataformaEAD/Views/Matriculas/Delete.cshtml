@@ -1,0 +1,65 @@
+@model PlataformaEAD.Models.Matricula
+
+@{
+    ViewData["Title"] = "Excluir Matrícula";
+}
+
+<div class="container">
+    <h1>Excluir Matrícula</h1>
+
+    <div class="alert alert-warning">
+        <i class="fas fa-exclamation-triangle"></i>
+        Tem certeza que deseja excluir esta matrícula?
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h5>@Model.Aluno.Nome - @Model.Curso.Titulo</h5>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-4">Aluno:</dt>
+                <dd class="col-sm-8">@Model.Aluno.Nome</dd>
+                
+                <dt class="col-sm-4">Curso:</dt>
+                <dd class="col-sm-8">@Model.Curso.Titulo</dd>
+                
+                <dt class="col-sm-4">Data da Matrícula:</dt>
+                <dd class="col-sm-8">@Model.Data.ToString("dd/MM/yyyy")</dd>
+                
+                <dt class="col-sm-4">Preço Pago:</dt>
+                <dd class="col-sm-8">R$ @Model.PrecoPago.ToString("N2")</dd>
+                
+                <dt class="col-sm-4">Status:</dt>
+                <dd class="col-sm-8">
+                    @switch (Model.Status)
+                    {
+                        case PlataformaEAD.Models.StatusMatricula.Ativo:
+                            <span class="badge bg-success">Ativo</span>
+                            break;
+                        case PlataformaEAD.Models.StatusMatricula.Concluido:
+                            <span class="badge bg-primary">Concluído</span>
+                            break;
+                        case PlataformaEAD.Models.StatusMatricula.Cancelado:
+                            <span class="badge bg-danger">Cancelado</span>
+                            break;
+                    }
+                </dd>
+                
+                <dt class="col-sm-4">Progresso:</dt>
+                <dd class="col-sm-8">@Model.Progresso%</dd>
+            </dl>
+        </div>
+    </div>
+
+    <form asp-action="Delete" class="mt-3">
+        <input type="hidden" name="alunoId" value="@Model.AlunoId" />
+        <input type="hidden" name="cursoId" value="@Model.CursoId" />
+        <button type="submit" class="btn btn-danger">
+            <i class="fas fa-trash"></i> Excluir
+        </button>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Cancelar
+        </a>
+    </form>
+</div>
